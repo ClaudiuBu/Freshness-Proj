@@ -1,0 +1,40 @@
+
+/* Tag Selectors */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style-type: none;
+    padding-left:0;
+}
+ul li{
+    display:inline;
+    margin-right:15px;
+}
+
+/* Class Selectors */
+.main{
+    padding:0 15px;
+}
+
+/* Header */
+.top-social-icons{
+    text-align:left;
+}
+/* Navigation Bar - Header */
+nav.navbar{
+    padding-left:0;
+}
+
+.bg-white{
+    background: #fff;
+}
+.active{
+    color:#3399cc!important;
+}
+
+
+/* ID Selectors */
+#top-header{
+    padding-top:20px;
+}
