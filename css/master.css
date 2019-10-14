@@ -29,6 +29,13 @@ p{
 .container{
     overflow:hidden;
 }
+a{
+    color:#3bafbe;
+}
+a:hover{
+    transition:0.5s;
+    color:#2f8591;
+}
 a,a:hover{
     text-decoration:none;
 }
@@ -70,6 +77,7 @@ span{
     color:#fff;
     background-color:#3bafbe;
     border-color:#3bafbe;
+    border-radius:5%;
 }
 .btn-cyan:hover {
     transition:0.5s;
@@ -176,8 +184,26 @@ blockquote p{
     margin-top:2%;
     padding:2% 22%;
 }
+#footer-section{
+    margin-top:3%;
+    background-color:#252525;
+    padding:2% 5%;
 
-
+}
+#footer-section h3,h5{
+    color:#ffffff;
+}
+#footer-section p{
+    color:#999999 !important;
+    margin-bottom:5px;
+}
+#footer-section input{
+    margin:3% 0%;
+}
+#footer-section hr{
+    margin:10px 0;
+    background-color:#8f8f8f;
+}
 /* 
 ********************
  =Media Breakpoints
@@ -185,9 +211,34 @@ blockquote p{
 */
 
 @media (max-width:768px){
-    
-
+    .top-social-icons{
+        padding:5% 10%;
+    }
+    .main-search{
+        width:70%;
+    }
     .img-small-box{
         text-align: center;
+    }
+    #footer-section{
+        text-align:center;
+        padding:2% 25%;
+    }
+    .box-container{
+        margin:5% 0; 
+    }
+    .box-body {
+        text-align:right;
+    }
+    .box-body h4, .box-body p{
+        text-align:left;
+    }
+        
+    
+    
+}
+@media (max-width:576px){
+    .top-social-icons{
+        padding:5% 0% 5% 15%;
     }
 }
